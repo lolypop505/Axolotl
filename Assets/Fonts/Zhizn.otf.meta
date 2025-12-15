@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: a16aa6692f7c821449714adf849c7761
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Zhizn
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 458f12e4c2c97f94e86c936d511be2f3, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
