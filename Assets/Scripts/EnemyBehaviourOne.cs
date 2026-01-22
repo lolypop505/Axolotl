@@ -70,7 +70,7 @@ public class EnemyBehaviourOne : MonoBehaviour
 
         if (timeBtwAttack <= 0)
         {
-            //anim.SetTrigger("Attack");
+            animator.SetTrigger("Attaced");
             //AI_Agent.SetDestination(transform.position);
             timeBtwAttack = startTimeBtwAttack;
             PlayerController.TakeDamagePlayer(damage);
