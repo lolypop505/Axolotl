@@ -155,6 +155,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
+    Android: com.NastushkaCompany.AxolotlGame
     Standalone: com.NastushkaCompany.AxolotlGame
   buildNumber:
     Standalone: 0
@@ -273,7 +274,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 1343c5dd17d693146bbf5e4953fd8073, type: 3}
+      m_Icon: {fileID: 2800000, guid: 2bf2ed5d7de2c6c4d851fa7dce5f7a09, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0

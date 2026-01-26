@@ -3645,9 +3645,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1954278825}
     m_Modifications:
+    - target: {fileID: 4918557934027703807, guid: 727264987260038439079cdbca329565, type: 3}
+      propertyPath: m_Value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4918557934348998869, guid: 727264987260038439079cdbca329565, type: 3}
       propertyPath: m_Name
       value: OptionsMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 4918557934348998869, guid: 727264987260038439079cdbca329565, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4918557934348998870, guid: 727264987260038439079cdbca329565, type: 3}
       propertyPath: m_Pivot.x
@@ -3744,6 +3752,30 @@ PrefabInstance:
     - target: {fileID: 4918557934506205283, guid: 727264987260038439079cdbca329565, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 4918557934547549682, guid: 727264987260038439079cdbca329565, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4918557934547549682, guid: 727264987260038439079cdbca329565, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4918557934589945014, guid: 727264987260038439079cdbca329565, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4918557934589945014, guid: 727264987260038439079cdbca329565, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4918557934589945014, guid: 727264987260038439079cdbca329565, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4918557935569399231, guid: 727264987260038439079cdbca329565, type: 3}
+      propertyPath: m_text
+      value: "\u043E\u0447\u0435\u043D\u044C \u043D\u0438\u0437\u043A\u0430\u044F"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 727264987260038439079cdbca329565, type: 3}

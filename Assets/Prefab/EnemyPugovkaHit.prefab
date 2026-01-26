@@ -1018,12 +1018,12 @@ MonoBehaviour:
   dir: {x: 0, y: 0, z: 0}
   AI_Agent: {fileID: 2714924153968802008}
   Player: {fileID: 0}
-  damage: 10
+  damage: 15
   WhatIsPlayer:
     serializedVersion: 2
     m_Bits: 64
-  timeBetweenAttacks: 3
-  startTimeBtwAttack: 4
+  timeBetweenAttacks: 2
+  startTimeBtwAttack: 3
   sightRange: 20
   attackRange: 8
   playerInSighRange: 0

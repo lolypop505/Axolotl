@@ -634,6 +634,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5936350264817566638, guid: f7fac3faf8d6b0f41a51fa5a25dfcbb6, type: 3}
+      propertyPath: m_Intensity
+      value: 1.63
+      objectReference: {fileID: 0}
     - target: {fileID: 5972465697119071362, guid: f7fac3faf8d6b0f41a51fa5a25dfcbb6, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -18081,7 +18085,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.8321823, g: 0.85022646, b: 0.9056604, a: 1}
+  m_Color: {r: 1, g: 0.9273734, b: 0.7490566, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -18645,7 +18649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad980451443d70438faac0bc6c235a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 0.12965614, y: -0.1989675, z: -0.6287262}
+  m_TrackedObjectOffset: {x: 0.12965614, y: -1.04, z: -12.83}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 0
   m_LookaheadIgnoreY: 0
@@ -18816,7 +18820,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 45
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -18884,7 +18888,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 817216646}
   m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 0.12965614, y: 16.165695, z: 1.5729207}
+  m_LocalPosition: {x: 0.12965614, y: 24.198599, z: -7.649383}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21190,7 +21194,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 1663830732}
   m_Lens:
-    FieldOfView: 60
+    FieldOfView: 45
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 1000
@@ -21215,7 +21219,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1511294105}
   m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 0.12965614, y: 16.165695, z: 1.5729207}
+  m_LocalPosition: {x: 0.12965614, y: 24.198599, z: -7.649383}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -29634,7 +29638,7 @@ PrefabInstance:
       objectReference: {fileID: 1956270564}
     - target: {fileID: 2875094781974731591, guid: 51237f5f854699e438c7dc8355f37f48, type: 3}
       propertyPath: ScenesIndex
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2875094781974731611, guid: 51237f5f854699e438c7dc8355f37f48, type: 3}
       propertyPath: m_Name

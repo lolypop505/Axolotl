@@ -30,12 +30,15 @@ public class PlayerController : MonoBehaviour
     public Image healthBarSprite;
 
     public Animator animatorDiedUI;
+    public Animator animatorWinUI;
 
     public int damage;
     public float attackRate;
     private float nextAttackTime;
 
     private Vector3 moveVector;
+
+    public int countEnemies;
 
     void Awake()
     {
@@ -123,7 +126,7 @@ public class PlayerController : MonoBehaviour
         instance.health -= damage;
         instance.UpdateHealthBar(instance.maxHealth, instance.health);
 
-        if (instance.health == 0)
+        if (instance.health <= 0)
         {
             Debug.Log("Óלונ");
             instance.Invoke(nameof(Die), 0.5f);
@@ -133,6 +136,22 @@ public class PlayerController : MonoBehaviour
     public void Die()
     {
         animatorDiedUI.SetTrigger("Die");
+        Invoke(nameof(Pause), 1f);
+    }
+
+    public void EnemiesMinus()
+    {
+        countEnemies -= 1;
+        if (countEnemies <= 0)
+        {
+            Debug.Log("Âûידנאכ");
+            instance.Invoke(nameof(Win), 0.5f);
+        }
+    }
+
+    public void Win()
+    {
+        animatorWinUI.SetTrigger("Win");
         Invoke(nameof(Pause), 1f);
     }
 

@@ -66,12 +66,9 @@ public class EnemyBehaviourOne : MonoBehaviour
 
     void AttackPlayer()
     {
-        //AI_Agent.SetDestination(transform.position);
-
         if (timeBtwAttack <= 0)
         {
             animator.SetTrigger("Attaced");
-            //AI_Agent.SetDestination(transform.position);
             timeBtwAttack = startTimeBtwAttack;
             PlayerController.TakeDamagePlayer(damage);
         }

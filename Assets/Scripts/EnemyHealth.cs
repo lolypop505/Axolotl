@@ -11,6 +11,8 @@ public class EnemyHealth : MonoBehaviour
 
     public GameObject minusOneEnemy;
 
+    public GameObject player;
+
     void Start()
     {
         health = maxHealth;
@@ -31,6 +33,7 @@ public class EnemyHealth : MonoBehaviour
     public void DestroyEnemy()
     {
         minusOneEnemy.GetComponent<BeginningOfBattle>().minusOneEnemy();
+        player.GetComponent<PlayerController>().EnemiesMinus();
         Destroy(gameObj);
     }
 }
